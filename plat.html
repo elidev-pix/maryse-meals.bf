@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Maryse's Meals - Plats</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+
+            <div class="menu" onclick="toggleMenu()">
+                <ion-icon id="list-icon" name="list-outline"></ion-icon>  
+            </div>
+            <div class="menu_content" id="menu_content">
+                <ul>
+                    <a href="index.html">Acceuil</a>
+                    <a href="index.html#about">A propos</a>
+                    <a href="plat.html">Plats</a>
+                    <a href="plat.html#cakes">Maryse's Cakes</a>
+                    <a href="#footer">Nous contacter</a>
+                </ul>
+            </div>
+
+            <img src="meals_logo.jpg" alt="logo" >
+            
+            <ul class="links">
+                <a href="index.html">Acceuil</a>
+                <a href="index.html#about">A propos</a>
+                <a href="plat.html">Plats</a>
+                <a href="plat.html#cakes">Maryse's Cakes</a>
+                <a href="#footer">Nous contacter</a>
+            </ul>
+
+            <a id="cuisto_a" href="index.html#about"><img id="cuisto" src="3D.png" alt="image"></a>
+            
+        </div>
+        <div class="sloganDish" id="sloganDish">
+            <div class="sloganDish-text">
+                Essayez c'est l'adopter, <br> Croyez-moi &#x1F60B;
+            </div>
+            <button><a href="https://wa.me/22660131275" target="_blank" style="text-decoration: none;color: white;">Commander</a></button>
+        </div>
+        <div class="main">
+            <div class="products" id="products">
+                <h2 id="product_title"><span>Tous nos Plats</span></h2>
+                <div class="dishes">
+                    <div class="dish">
+                    <div class="salted">
+                        <h2><span>Plats Salés Cuisinés <img src="shawarma.jpg" alt="shawarma_img"></span></h2>
+                        <ul>
+                            <li><span id="text">Lasagne</span><small id="price">5500/8500 f</small></li>
+                            <li><span id="text">Hachis Parmentier</span><span id="price">8500 f</span></li>
+                            <li><span id="text">Gratin Dauphinois <small>(Végétarien)</small></span><span id="price">4700 f</span></li>
+                            <li><span id="text">Gratin Savoyard <small>(Jambon moyen)</small></span><span id="price">7200 f</span></li>
+                            <li><span id="text">Gratin Max</span><span id="price">12500 f</span></li>
+                            <li><span id="text">6 Pastels <small>Viande/Poisson</small></span><span id="price">2500 f</span></li>
+                            <li><span id="text">10 Pastels <small>(fromage)</small></span><small id="price">4200/5500 f</small></li>
+                            <li><span id="text">6 Batbouts <small>Viande/Possion</small></span><span id="price">2500 f</span></li>
+                            <li><span id="text">Shawarma</span><span id="price">3000 f</span></li>
+                            <li><span id="text">6 Chees Naans <small>Viande/Jambon</small></span><span id="price">3500 f</span></li>
+                            <li><span id="text">10 Oeufs écossais</span><span id="price">5000 f</span></li>
+                            <li><span id="text">15 Mini Pizza/Pizza</span><span id="price">5000 f</span></li>
+                            <li><span id="text">Burger/Frite</span><small id="price">2500/3500 f</small></li>
+                            <li><span id="text">25 Nems</span><span id="price">5000 f</span></li>
+                            <li><span id="text">Bol de Frites/Oeuf/Poulet</span><small id="price">3500/6900 f</small></li>
+                            <li><span id="text">3 Poulets Panés + BDF</span><span id="price">4500 f</span></li>
+                            <li><span id="text">4 Poulets Panés + BDF</span><span id="price">5000 f</span></li>
+                            <li><span id="text">5 Poulets Panés + BDF</span><span id="price">5500 f</span></li>
+                            <li><span id="text">46 Poulets Panés + BDF</span><span id="price">6000 f</span></li>
+                        </ul> <br>
+                         <small style="font-family: Outfit,sans-serif; font-weight: bold;"> BDF = Bol De Frites</small>
+                    </div>
+                    <div class="pastry">
+                        <h2><span>Pâtisserie <img src="croissant.png" alt="croissant_img"></span></h2>
+                        <ul>
+                            <li><span id="text">Croissant-TG (25)</span><span id="price">450 f</span></li>
+                            <li><span id="text">Croissant-TD</span><span id="price">500 f</span></li>
+                            <li><span id="text">Pain au chocolat-TG (25)</span><span id="price">550 f</span></li>
+                            <li><span id="text">Pain au raisin-TG</span><span id="price">550 f</span></li>
+                            <li><span id="text">Pain au chocolat-TD</span><span id="price">600 f</span></li>
+                            <li><span id="text">Pain au raisin-TD</span><span id="price">600 f</span></li>
+                            <li><span id="text">Friand-TG (25)</span><span id="price">700 f</span></li>
+                            <li><span id="text">Friand-TD</span><span id="price">800 f</span></li>
+                        </ul> <br>
+                        <small style="font-family: Outfit,sans-serif; font-weight: bold;">TG = Tarif en gros <br> TF = Tarif détail <br> (25) = A partir de pièces </small>
+                    </div>
+                    <div class="crepe">
+                        <h2><span>Crêperie <img id="pancake" src="pancake.png" alt="pancake"></span></h2>
+                        <ul>
+                            <li><span id="text">Crêpes natures</span><span id="price">1950 f</span></li>
+                            <li><span id="text">Crêpes chocolat natures</span><span id="price">2800 f</span></li>
+                            <li><span id="text">Crêpes spéciales</span><span id="price">3700 f</span></li>
+                            <li><span id="text">Crêpes champagnardes</span><span id="price">5500 f</span></li>
+                            <li><span id="text">Crêpes méditeranéennes</span><span id="price">6000 f</span></li>
+                            <li><span id="text">Crêpes grillées/pannées</span><span id="price">7000 f</span></li>
+                            <li><span id="text">Crêpes spicy douce</span><span id="price">6900 f</span></li>
+                            <li><span id="text">Crêpes mixtes/pannées</span><span id="price">7000 f</span></li>
+                            <li><span id="text">Crêpes nutella</span><span id="price">5600 f</span></li>
+                        </ul>
+                    </div>
+                    <div class="cakes">
+                        <h2><span>Tagliatelles <img id="tagliatelle" src="tagliatelle.png" alt="tagliatelle_img"></span></h2>
+                        <ul>
+                            <li><span id="text">Tagliatelles nutella</span><span id="price">5600 f</span></li>
+                            <li><span id="text">Tagliatelles Salés</span><span id="price">5000 f</span></li>
+                        </ul>
+                    </div>
+                    <div class="cakes" id="cakes">
+                        <h2><span>Maryse's Cakes <img src="birthday-cake_3347391.png" alt="birthday-cake_img"></span></h2>
+                        <ul>
+                            <li><span id="text">12 Cup Cakes</span><span id="price">6500 f</span></li>
+                            <li><span id="text">12 Fondants Au Chocolat</span><span id="price">6000 f</span></li>
+                            <li><span id="text">Gâteaux Glacé</span><span id="price">6000 f</span></li>
+                            <li><span id="text">Crêpes Roulées</span><span id="price">3000 f</span></li>
+                            <li><span id="text">Pancakes</span><span id="price"><small>3000/3500 f</small></span></li>
+                            <li><span id="text">Gâteaux d'Anniversaire</span><span id="price"><small>6500/7000 f</small></span></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="footer_top">
+            <img src="meals_logo.jpg" alt="logo">
+            <div class="footer_center">
+                <ul class="links">
+                    <p>Naviguer</p>
+                    <a href="index.html">Acceuil</a>
+                    <a href="index.html#about">A propos</a>
+                    <a href="plat.html">Plats</a>
+                    <a href="plat.html#cakes">Maryse's Cakes</a>
+                    <a href="#footer">Nous contacter</a>
+                </ul>
+                <div class="contact">
+                    <p>Nous contacter</p>
+                    <ul>
+                        <li><a href=""><span><ion-icon style="font-weight: bold;" name="location-outline"></ion-icon></span> <span>Ouagadougou,Karpala</span></a></li>
+                        <li><a href="tel:+22660131275"><span><ion-icon name="call-outline"></ion-icon></span><span>+226 60131275/57233880</span></a></li>
+                        <li><a href="mailto:tamalgomaryse@gmail.com"><span><ion-icon name="mail-outline"></ion-icon></span><span>marysemeals@gmail.com</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="socials">
+                <p>Réseaux sociaux</p>
+                <div class="logo">
+                    <a href="https://www.snapchat.com/add/tamalgomaryseas"><ion-icon name="logo-snapchat"></ion-icon></a>
+                    <a href="https://vm.tiktok.com/ZMAMnSUqV/"><ion-icon name="logo-tiktok"></ion-icon></a>
+                    <a href="https://wa.me/22660131275" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                </div>
+            </div> 
+        </div>
+            <br><br>
+            <div class="footer_bottom">
+                <small>© 2025, Maryse's Cakes | Design by elidev-pix</small> 
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>(function(){emailjs.init("Ju3MFZidmgfGQY7V7"); })();</script>
+</body>
+</html>
